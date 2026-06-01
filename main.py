@@ -1,6 +1,5 @@
 # This is a test file of the OTA code
 
-import ugit
 import time
 
 # Use "LED" as the pin name for Pico W / Pico 2 W
