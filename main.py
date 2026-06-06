@@ -6,6 +6,7 @@ print("[app] running v1 — slow blink")
 
 while True:
     led.toggle()
-    sleep(0.1)
+    sleep(0.5)
+    printf("I am Ready")
 
 
