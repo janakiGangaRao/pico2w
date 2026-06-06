@@ -6,6 +6,6 @@ print("[app] running v1 — slow blink")
 
 while True:
     led.toggle()
-    sleep(1)
+    sleep(0.1)
 
 
