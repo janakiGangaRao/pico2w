@@ -1,5 +1,11 @@
-# This is a test file of the OTA code
+from machine import Pin
+from time import sleep
 
-print("Hello World")
+led = Pin("LED", Pin.OUT)
+print("[app] running v1 — slow blink")
+
+while True:
+    led.toggle()
+    sleep(1)
 
 
