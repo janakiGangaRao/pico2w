@@ -6,7 +6,7 @@ led = Pin("LED", Pin.OUT)
 
 while True:
     led.toggle()
-    sleep(1)
+    sleep(0.1)
     
 
 
